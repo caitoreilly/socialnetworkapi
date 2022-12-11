@@ -21,7 +21,7 @@ const userController = {
       .populate("friends")
       .populate("thoughts")
       .then((dbUserData) => {
-        // if no user founf, send 404
+        // if no user found, send 404 error
         if (!dbUserData) {
           res.status(404).json({ message: "No user found with this id" });
           return;
@@ -64,7 +64,7 @@ const userController = {
       .catch((err) => res.status(400).json(err));
   },
   // /api/users/:userId/friends/:friendId
-  // POST to Add a new friend to a user's friend list
+  // PUT to Add a new friend to a user's friend list
   addFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
