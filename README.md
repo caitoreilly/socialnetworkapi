@@ -44,7 +44,7 @@ Please follow the steps outlined below to begin using and testing requests for t
 
 ---
 
-Please watch this [video tutorial]() for a demonstration of how to use the Social Network API web application step by step. You will also be able to see GET, POST, PUT, and DELETE requests for all of the routes created for users, thoughts, friends, and reactions.
+Please watch this [video tutorial](https://drive.google.com/file/d/1CbPYzy4o3Zd-litmY3jtd7Xd5IcbtZxp/view?usp=sharing) for a demonstration of how to use the Social Network API web application step by step. You will also be able to see GET, POST, PUT, and DELETE requests for all of the routes created for users, thoughts, friends, and reactions.
 
 ## Questions
 
